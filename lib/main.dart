@@ -1,10 +1,13 @@
 import 'package:Electchain/bidings/auth_binding.dart';
 import 'package:Electchain/utils/root.dart';
+import 'package:Electchain/widgets/drawer.dart';
 import 'package:flutter/material.dart';
+import 'config/styles.dart';
 import 'screens/screens.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:shimmer/shimmer.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -52,11 +55,11 @@ class MyApp extends StatelessWidget {
 //       backgroundColor: Colors.indigo[100],
 //       key: _scafflofKey,
 //       appBar: AppBar(
-//         //  leading: IconButton(
-//         //   icon: Icon(Icons.dashboard),
-//         //  onPressed: () {
-//         //     Scaffold.of(context).openDrawer();
-//         // }),
+//         leading: IconButton(
+//             icon: Icon(Icons.dashboard),
+//             onPressed: () {
+//               Scaffold.of(context).openDrawer();
+//             }),
 //         flexibleSpace: Container(
 //           decoration: BoxDecoration(
 //               gradient: LinearGradient(

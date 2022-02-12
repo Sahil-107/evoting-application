@@ -33,14 +33,22 @@ class ElectionController extends GetxController {
     ElectionModel _election = ElectionModel();
 
     _election.id = doc.id;
-    _election.accessCode = doc.data()['accessCode'];
-    _election.description = doc.data()['description'];
-    _election.endDate = doc.data()['endDate'];
-    _election.name = doc.data()['name'];
-    _election.options = doc.data()['options'];
-    _election.startDate = doc['startDate'];
-    _election.voted = doc.data()['voted'];
-    _election.owner = doc.data()['owner'];
+    _election.accessCode = doc.get('accessCode');
+    _election.description = doc.get('description');
+    _election.endDate = doc.get('endDate');
+    _election.name = doc.get('name');
+    _election.options = doc.get('options');
+    _election.startDate = doc.get("startDate");
+    _election.voted = doc.get('voted');
+    _election.owner = doc.get("owner");
+    // _election.accessCode = doc.data()['accessCode'];
+    // _election.description = doc.data()['description'];
+    // _election.endDate = doc.data()['endDate'];
+    // _election.name = doc.data()['name'];
+    // _election.options = doc.data()['options'];
+    // _election.startDate = doc['startDate'];
+    // _election.voted = doc.data()['voted'];
+    // _election.owner = doc.data()['owner'];
     return _election;
   }
 

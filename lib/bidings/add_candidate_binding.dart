@@ -11,7 +11,8 @@ class AddCandidateBinding extends Bindings {
           .candidatesStream(Get.find<UserController>().user.id,
               Get.arguments[0].id.toString())
           .then((election) {
-        data = election.data()['options'];
+        data = election.get('options');
+        // data = election.data()['options'];
         Get.find<ElectionController>().currentElection.options = data;
       });
     }

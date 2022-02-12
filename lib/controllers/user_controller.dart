@@ -14,11 +14,16 @@ class UserController extends GetxController {
   UserModel fromDocumentSnapshot(DocumentSnapshot doc) {
     UserModel _user = UserModel();
     _user.id = doc.id;
-    _user.email = doc.data()['email'];
-    _user.name = doc.data()['name'];
-    _user.phoneNumber = doc.data()['phonenumber'];
-    _user.ownedElections = doc.data()['owned_elections'];
-    _user.avatar = doc.data()['avatar'];
+    _user.email = doc.get('email');
+    _user.name = doc.get('name');
+    _user.phoneNumber = doc.get('phonenumber');
+    _user.ownedElections = doc.get('owned_elections');
+    _user.avatar = doc.get('avatar');
+    // _user.email = doc.data()['email'];
+    // _user.name = doc.data()['name'];
+    // _user.phoneNumber = doc.data()['phonenumber'];
+    // _user.ownedElections = doc.data()['owned_elections'];
+    // _user.avatar = doc.data()['avatar'];
     return _user;
   }
 }
