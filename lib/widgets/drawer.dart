@@ -80,7 +80,7 @@ class _CustomDrawerState extends State<CustomDrawer> {
           ),
           ListTile(
             title: Text('Info'),
-            subtitle: Text('About ElectChain'),
+            subtitle: Text('About E-Matdaan'),
             leading: _leadingIcon(Icons.info),
             onTap: () {
               showAboutDialog(
@@ -91,8 +91,8 @@ class _CustomDrawerState extends State<CustomDrawer> {
                     backgroundColor: Colors.transparent,
                     backgroundImage: AssetImage('assets/icons/icon.png'),
                   ),
-                  applicationName: 'ElectChain',
-                  applicationLegalese: 'Brave Tech Solutions');
+                  applicationName: 'E-Matdaan',
+                  applicationLegalese: 'UIT Fufc Solutions');
             },
           ),
           ListTile(
@@ -119,7 +119,7 @@ class _CustomDrawerState extends State<CustomDrawer> {
           Padding(
             padding: const EdgeInsets.all(15.0),
             child: Text(
-              'Developped by Baimam Boukar',
+              'Developed by UIT Fufc Solutions',
               style: TextStyle(color: Colors.grey, fontSize: 18.0),
             ),
           )

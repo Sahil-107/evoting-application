@@ -178,9 +178,9 @@ class _VoteDashboardState extends State<VoteDashboard> {
                                 label: Text('Regenerate the Code')),
                           ],
                         ),
-                        _StatsBox(Icons.people_alt, 'CANDIDATES',
+                        _StatsBox(Icons.people_alt, 'Candidates',
                             election["options"].length.toString()),
-                        _StatsBox(Icons.how_to_vote, 'TOTAL VOTES',
+                        _StatsBox(Icons.how_to_vote, 'Total Votes',
                             totalVoteCount().toString())
                       ],
                     ),
@@ -227,7 +227,7 @@ class _VoteDashboardState extends State<VoteDashboard> {
                                     children: [
                                       Center(
                                         child: Text(
-                                          'OWNER ACTIONS',
+                                          'Owner Actions',
                                           style: TextStyle(
                                               color: Colors.indigo,
                                               fontSize: 18.0),

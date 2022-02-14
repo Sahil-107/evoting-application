@@ -72,7 +72,7 @@ class ElectionController extends GetxController {
     //how to copy to the clipboard using dart
     Clipboard.setData(ClipboardData(text: code));
     Get.snackbar(
-      'COPYING ACCESS CODE',
+      'Copying Access Code',
       'Access code copied successfully',
       backgroundColor: Colors.green,
       snackPosition: SnackPosition.TOP,

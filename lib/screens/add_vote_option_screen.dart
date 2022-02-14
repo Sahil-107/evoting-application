@@ -148,7 +148,7 @@ class _AddVoteOptionWidgetState extends State<AddVoteOptionWidget> {
               height: 10.0,
             ),
             Text(
-              "ADD OPTION OR CANDIDATE",
+              "Add option or candidate",
               style: TextStyle(
                   fontSize: 28.0,
                   color: Colors.indigo,

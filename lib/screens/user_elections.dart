@@ -38,7 +38,7 @@ class UserElections extends StatelessWidget {
               slivers: [
                 SliverAppBar(
                   title: Text(
-                    "OWNED ELECTIONS",
+                    "Owned elections",
                     style: GoogleFonts.yanoneKaffeesatz(
                         fontSize: 28.0,
                         color: Colors.white,

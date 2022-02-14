@@ -24,7 +24,7 @@ class _AddCandidateState extends State<AddCandidate> {
     return Scaffold(
       body: CustomScrollView(slivers: [
         SliverAppBar(
-          title: Text('ADD VOTE OPTIONS',
+          title: Text('Add vote options',
               overflow: TextOverflow.ellipsis,
               style: GoogleFonts.yanoneKaffeesatz(
                   fontSize: 30.0,
@@ -49,7 +49,7 @@ class _AddCandidateState extends State<AddCandidate> {
                 child: Padding(
                   padding: const EdgeInsets.only(left: 20.0, right: 20.0),
                   child: Text(
-                      'VOTE ${Get.arguments[1].name.toString().toUpperCase()}',
+                      'Vote ${Get.arguments[1].name.toString().toUpperCase()}',
                       overflow: TextOverflow.ellipsis,
                       style: GoogleFonts.yanoneKaffeesatz(
                           fontSize: 30.0,
@@ -84,7 +84,7 @@ class _AddCandidateState extends State<AddCandidate> {
                             Icons.wifi_off,
                             size: 100.0,
                           ),
-                          Text('NO CANDIDATE ADDED YET',
+                          Text('No candidate added yet',
                               style: TextStyle(
                                 fontSize: 20.0,
                               )),

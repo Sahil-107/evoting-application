@@ -37,7 +37,7 @@ class _LoginState extends State<Login> {
               ),
               Padding(
                 padding: const EdgeInsets.only(top: 12.0),
-                child: Text('AUTHENTICATION | LOG IN IN',
+                child: Text('Log In',
                     style: TextStyle(
                         fontSize: 30.0,
                         color: Colors.indigo,
@@ -69,7 +69,7 @@ class _LoginState extends State<Login> {
                       Get.find<AuthController>().loginUser(
                           _emailController.text, _passwordController.text);
                     },
-                    label: Text('SIGN IN'),
+                    label: Text('Sign In'),
                     icon: Icon(Icons.verified_user),
                   ),
                 ),

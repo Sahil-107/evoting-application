@@ -150,7 +150,7 @@ class _AuthScreen extends State<AuthScreen> {
               ),
               Padding(
                 padding: const EdgeInsets.only(top: 12.0),
-                child: Text('AUTHENTICATION | SIGN UP',
+                child: Text('Sign Up',
                     style: GoogleFonts.yanoneKaffeesatz(
                         fontSize: 30.0,
                         color: Colors.indigo,
@@ -303,7 +303,7 @@ class _AuthScreen extends State<AuthScreen> {
 
                             //Get.snackbar('SUCEESS', 'user created');
                           },
-                          label: Text('SIGN UP'),
+                          label: Text('Sign Up'),
                           icon: Icon(Icons.verified_user),
                         ),
                       ),

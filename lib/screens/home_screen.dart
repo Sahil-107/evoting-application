@@ -41,13 +41,13 @@ class _ElectChainState extends State<ElectChain> {
         title: RichText(
           text: TextSpan(children: [
             TextSpan(
-                text: 'ELECT',
+                text: 'E-',
                 style: GoogleFonts.gugi(
                     color: Colors.pink[300],
                     fontSize: 18.0,
                     fontWeight: FontWeight.bold)),
             TextSpan(
-                text: 'CHAIN',
+                text: 'Matdaan',
                 style: GoogleFonts.gugi(
                     fontSize: 18.0, fontWeight: FontWeight.bold))
           ]),
@@ -73,8 +73,8 @@ class _ElectChainState extends State<ElectChain> {
                         backgroundColor: Colors.transparent,
                         backgroundImage: AssetImage('assets/icons/icon.png'),
                       ),
-                      applicationName: 'ElectChain',
-                      applicationLegalese: 'Brave Tech Solutions');
+                      applicationName: 'E-Matdaan',
+                      applicationLegalese: 'UIT Fufc Solutions');
                 }),
           ),
         ],
@@ -111,7 +111,7 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             // SizedBox(height: 30.0),
             Text(
-              "ENTER A VOTE CODE",
+              "Enter vote code",
               style: TextStyle(
                   fontSize: 30.0,
                   fontWeight: FontWeight.bold,

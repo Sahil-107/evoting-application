@@ -32,7 +32,7 @@ class NewVote extends StatelessWidget {
           SliverToBoxAdapter(
             child: Center(
               child: Text(
-                'CREATE NEW ELECTION',
+                'Create new Election',
                 style: GoogleFonts.yanoneKaffeesatz(
                     fontSize: 28.0,
                     color: Colors.indigo,

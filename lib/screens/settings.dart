@@ -10,7 +10,7 @@ class Settings extends StatelessWidget {
         slivers: [
           SliverAppBar(
             title: Text(
-              "SETTINGS",
+              "Settings",
               style: GoogleFonts.yanoneKaffeesatz(
                   fontSize: 25.0,
                   color: Colors.white,

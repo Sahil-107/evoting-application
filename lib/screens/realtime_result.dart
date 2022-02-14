@@ -85,7 +85,7 @@ class _RealtimeResultState extends State<RealtimeResult> {
         slivers: [
           SliverAppBar(
             title: Text(
-              "REAL TIME RESULT",
+              "Real-time Results",
               style: GoogleFonts.yanoneKaffeesatz(
                   fontSize: 25.0,
                   color: Colors.white,

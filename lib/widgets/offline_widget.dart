@@ -13,11 +13,11 @@ class OfflineWidget extends StatelessWidget {
               size: 100.0,
             ),
             Text(
-              "NOT INTERNET CONNEXION",
+              "No Internet Connection!",
               style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
             ),
             Text(
-              "Please connect check your connectivity",
+              "Please check your connectivity",
               style: TextStyle(
                   fontSize: 16.0,
                   fontWeight: FontWeight.normal,

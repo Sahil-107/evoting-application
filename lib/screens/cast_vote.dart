@@ -22,7 +22,7 @@ class _CastVoteState extends State<CastVote> {
       slivers: [
         SliverAppBar(
           title: Text(
-            "CAST YOUR VOTE",
+            "Cast your vote",
             style: GoogleFonts.yanoneKaffeesatz(
                 fontSize: 25.0,
                 color: Colors.white,
@@ -123,7 +123,7 @@ class _CastVoteState extends State<CastVote> {
                                   size: 36.0,
                                   color: Colors.yellow,
                                 ),
-                                title: Text("CONFIRM YOUR CHOICE PLEASE"),
+                                title: Text("Confirm your choice!"),
                                 subtitle: Text(
                                     "Notice that you cannot change after confirmation"),
                               ),
