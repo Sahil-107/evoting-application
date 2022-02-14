@@ -12,7 +12,7 @@ class Root extends GetWidget<AuthController> {
       initState: (_) {
         Get.put(UserController());
       },
-      builder: (_) {
+      builder: (dynamic _) {
         if (Get.find<UserController>().user.name != null) {
           return ElectChain();
         } else {

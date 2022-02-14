@@ -7,7 +7,7 @@ import 'package:Electchain/controllers/controllers.dart';
 class AuthController extends GetxController {
   FirebaseAuth _auth = FirebaseAuth.instance;
   // Rx<User> _firebaseUser;
-  Rxn<User> _firebaseUser = Rxn<User>();
+  Rx<User> _firebaseUser = Rx<User>();
   var usercontroller = Get.put(UserController());
 
   String get user => _firebaseUser.value?.email;
