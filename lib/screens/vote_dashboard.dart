@@ -275,7 +275,7 @@ class _VoteDashboardState extends State<VoteDashboard> {
 Widget _StatsBox(IconData icon, String title, String count) {
   return Container(
     padding: const EdgeInsets.all(8.0),
-    height: 100.0,
+    // height: 100.0,
     width: 100.0,
     child: Column(
       children: [

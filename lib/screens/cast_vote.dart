@@ -128,8 +128,8 @@ class _CastVoteState extends State<CastVote> {
                                     "Notice that you cannot change after confirmation"),
                               ),
                               content: Container(
-                                height: 230.0,
-                                // width: 250.0,
+                                height: 250.0,
+                                // // width: 250.0,
                                 decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(10.0),
                                     gradient: LinearGradient(
