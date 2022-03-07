@@ -118,9 +118,11 @@ class _CustomDrawerState extends State<CustomDrawer> {
           ),
           Padding(
             padding: const EdgeInsets.all(15.0),
-            child: Text(
-              'Developed by UIT Fufc Solutions',
-              style: TextStyle(color: Colors.grey, fontSize: 18.0),
+            child: Center(
+              child: Text(
+                'Developed by UIT Fufc Solutions',
+                style: TextStyle(color: Colors.grey, fontSize: 18.0),
+              ),
             ),
           )
         ]),

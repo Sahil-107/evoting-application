@@ -5,7 +5,7 @@ class ActionBox extends StatelessWidget {
   final String action;
   final String description;
 
-  const ActionBox(
+  ActionBox(
       {Key key, @required this.image, @required this.action, this.description})
       : super(key: key);
   @override

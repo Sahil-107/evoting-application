@@ -4,6 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/src/widgets/framework.dart' show BuildContext, Widget;
 import 'package:get/get.dart';
 import 'package:EMatdaan/screens/screens.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class Root extends GetWidget<AuthController> {
   @override
