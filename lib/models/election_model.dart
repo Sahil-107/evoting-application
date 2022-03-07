@@ -1,5 +1,5 @@
-import 'package:Electchain/models/add_vote_option.dart';
-import 'package:Electchain/models/models.dart';
+import 'package:EMatdaan/models/add_vote_option.dart';
+import 'package:EMatdaan/models/models.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class ElectionModel {

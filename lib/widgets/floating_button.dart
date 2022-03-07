@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:Electchain/config/styles.dart';
+import 'package:EMatdaan/config/styles.dart';
 
 class FloatingButton extends StatefulWidget {
   @override

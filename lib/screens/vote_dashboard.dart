@@ -1,9 +1,9 @@
 import 'dart:math';
-import 'package:Electchain/controllers/election_controller.dart';
-import 'package:Electchain/controllers/user_controller.dart';
-import 'package:Electchain/models/models.dart';
-import 'package:Electchain/screens/home_screen.dart';
-import 'package:Electchain/services/database.dart';
+import 'package:EMatdaan/controllers/election_controller.dart';
+import 'package:EMatdaan/controllers/user_controller.dart';
+import 'package:EMatdaan/models/models.dart';
+import 'package:EMatdaan/screens/home_screen.dart';
+import 'package:EMatdaan/services/database.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:charts_flutter/flutter.dart' as charts;

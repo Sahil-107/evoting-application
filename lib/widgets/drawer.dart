@@ -1,10 +1,10 @@
-import 'package:Electchain/controllers/auth_controller.dart';
-import 'package:Electchain/controllers/controllers.dart';
-import 'package:Electchain/models/models.dart';
-import 'package:Electchain/screens/screens.dart';
-import 'package:Electchain/screens/screens.dart';
-import 'package:Electchain/screens/user_elections.dart';
-import 'package:Electchain/services/database.dart';
+import 'package:EMatdaan/controllers/auth_controller.dart';
+import 'package:EMatdaan/controllers/controllers.dart';
+import 'package:EMatdaan/models/models.dart';
+import 'package:EMatdaan/screens/screens.dart';
+import 'package:EMatdaan/screens/screens.dart';
+import 'package:EMatdaan/screens/user_elections.dart';
+import 'package:EMatdaan/services/database.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

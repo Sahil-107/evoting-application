@@ -5,8 +5,8 @@
 // gestures. You can also use WidgetTester to find child widgets in the widget
 // tree, read text, and verify that the values of widget properties are correct.
 
-import 'package:Electchain/main.dart';
-import 'package:Electchain/screens/screens.dart';
+import 'package:EMatdaan/main.dart';
+import 'package:EMatdaan/screens/screens.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 

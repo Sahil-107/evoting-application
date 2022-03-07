@@ -1,8 +1,8 @@
-import 'package:Electchain/models/models.dart';
-import 'package:Electchain/services/database.dart';
+import 'package:EMatdaan/models/models.dart';
+import 'package:EMatdaan/services/database.dart';
 import 'package:get/get.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:Electchain/controllers/controllers.dart';
+import 'package:EMatdaan/controllers/controllers.dart';
 
 class AuthController extends GetxController {
   FirebaseAuth _auth = FirebaseAuth.instance;

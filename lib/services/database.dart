@@ -1,7 +1,7 @@
-import 'package:Electchain/controllers/controllers.dart';
-import 'package:Electchain/screens/screens.dart';
+import 'package:EMatdaan/controllers/controllers.dart';
+import 'package:EMatdaan/screens/screens.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:Electchain/models/models.dart';
+import 'package:EMatdaan/models/models.dart';
 import 'package:get/get.dart';
 
 class DataBase {

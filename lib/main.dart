@@ -1,6 +1,7 @@
-import 'package:Electchain/bidings/auth_binding.dart';
-import 'package:Electchain/utils/root.dart';
-import 'package:Electchain/widgets/drawer.dart';
+import 'package:EMatdaan/bidings/auth_binding.dart';
+import 'package:EMatdaan/firebase_options.dart';
+import 'package:EMatdaan/utils/root.dart';
+import 'package:EMatdaan/widgets/drawer.dart';
 import 'package:flutter/material.dart';
 import 'config/styles.dart';
 import 'screens/screens.dart';
@@ -11,7 +12,7 @@ import 'package:shimmer/shimmer.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(MyApp());
 }
 

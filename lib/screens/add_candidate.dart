@@ -1,13 +1,13 @@
-import 'package:Electchain/bidings/bindings.dart';
-import 'package:Electchain/models/models.dart';
-import 'package:Electchain/screens/add_vote_option_screen.dart';
-import 'package:Electchain/screens/screens.dart';
-import 'package:Electchain/services/database.dart';
-import 'package:Electchain/widgets/candidate_box.dart';
+import 'package:EMatdaan/bidings/bindings.dart';
+import 'package:EMatdaan/models/models.dart';
+import 'package:EMatdaan/screens/add_vote_option_screen.dart';
+import 'package:EMatdaan/screens/screens.dart';
+import 'package:EMatdaan/services/database.dart';
+import 'package:EMatdaan/widgets/candidate_box.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:Electchain/controllers/controllers.dart';
+import 'package:EMatdaan/controllers/controllers.dart';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 

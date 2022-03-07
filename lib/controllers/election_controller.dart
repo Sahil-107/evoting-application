@@ -1,8 +1,8 @@
 import 'dart:math';
 
-import 'package:Electchain/controllers/controllers.dart';
-import 'package:Electchain/models/models.dart';
-import 'package:Electchain/services/database.dart';
+import 'package:EMatdaan/controllers/controllers.dart';
+import 'package:EMatdaan/models/models.dart';
+import 'package:EMatdaan/services/database.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';

@@ -1,6 +1,6 @@
-import 'package:Electchain/controllers/controllers.dart';
-import 'package:Electchain/controllers/election_controller.dart';
-import 'package:Electchain/widgets/widgets.dart';
+import 'package:EMatdaan/controllers/controllers.dart';
+import 'package:EMatdaan/controllers/election_controller.dart';
+import 'package:EMatdaan/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:get/get.dart';

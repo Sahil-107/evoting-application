@@ -1,6 +1,6 @@
-import 'package:Electchain/controllers/controllers.dart';
-import 'package:Electchain/controllers/user_controller.dart';
-import 'package:Electchain/screens/vote_dashboard.dart';
+import 'package:EMatdaan/controllers/controllers.dart';
+import 'package:EMatdaan/controllers/user_controller.dart';
+import 'package:EMatdaan/screens/vote_dashboard.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';

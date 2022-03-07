@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:Electchain/services/database.dart';
-import 'package:Electchain/controllers/controllers.dart';
+import 'package:EMatdaan/services/database.dart';
+import 'package:EMatdaan/controllers/controllers.dart';
 
 class AddCandidateBinding extends Bindings {
   @override

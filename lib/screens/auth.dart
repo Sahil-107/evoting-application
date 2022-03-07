@@ -1,9 +1,9 @@
-import 'package:Electchain/widgets/widgets.dart';
+import 'package:EMatdaan/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:get/get.dart';
-import 'package:Electchain/screens/screens.dart';
-import 'package:Electchain/controllers/controllers.dart';
+import 'package:EMatdaan/screens/screens.dart';
+import 'package:EMatdaan/controllers/controllers.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'dart:io';

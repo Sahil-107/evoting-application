@@ -1,4 +1,4 @@
-import 'package:Electchain/controllers/controllers.dart';
+import 'package:EMatdaan/controllers/controllers.dart';
 import 'package:get/get.dart';
 
 class AuthBinding extends Bindings {

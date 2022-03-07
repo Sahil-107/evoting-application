@@ -1,4 +1,4 @@
-name: Electchain
+name: EMatdaan
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -60,7 +60,7 @@ flutter_icons:
   image_path: "assets/icons/icon.png"
 
 flutter_launcher_name:
-  name: "ElectChain"
+  name: "EMatdaan"
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
