@@ -32,9 +32,6 @@ class _CastVoteState extends State<CastVote> {
             IconButton(
                 icon: Icon(Icons.info),
                 onPressed: () => print("Display something")),
-            IconButton(
-                icon: Icon(Icons.info),
-                onPressed: () => print("Display something")),
           ],
         ),
         SliverToBoxAdapter(

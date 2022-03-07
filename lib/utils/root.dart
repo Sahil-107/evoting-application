@@ -14,7 +14,7 @@ class Root extends GetWidget<AuthController> {
         Get.put(UserController());
       },
       builder: (dynamic _) {
-        if (Get.find<UserController>().user.name != null) {
+        if (Get.find<UserController>().user.id != null) {
           return ElectChain();
         } else {
           return Login();

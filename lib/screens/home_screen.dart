@@ -249,10 +249,13 @@ class _HomeScreenState extends State<HomeScreen> {
                     image: Icons.ballot,
                   ),
                 ),
-                ActionBox(
-                    action: "FAQ",
-                    description: "Create a new poll",
-                    image: Icons.description),
+                GestureDetector(
+                  onTap: () => Get.to(Faq()),
+                  child: ActionBox(
+                      action: "FAQ",
+                      description: "Create a new poll",
+                      image: Icons.description),
+                ),
               ],
             ),
           ],
