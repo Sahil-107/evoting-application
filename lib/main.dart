@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       initialBinding: AuthBinding(),
       debugShowCheckedModeBanner: false,
       defaultTransition: Transition.noTransition,
-      title: 'ElectChain',
+      title: 'EMatdaan',
       theme: ThemeData(
         textTheme:
             GoogleFonts.yanoneKaffeesatzTextTheme(Theme.of(context).textTheme),
@@ -35,8 +35,8 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         'auth': (context) => AuthScreen(),
-        'settings': (context) => ElectChain(),
-        'profile': (context) => ElectChain(),
+        'settings': (context) => EMatdaan(),
+        'profile': (context) => EMatdaan(),
         'create_vote': (context) => NewVote(),
       },
     );

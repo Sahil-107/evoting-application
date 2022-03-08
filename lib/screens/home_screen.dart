@@ -12,12 +12,12 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-class ElectChain extends StatefulWidget {
+class EMatdaan extends StatefulWidget {
   @override
-  _ElectChainState createState() => _ElectChainState();
+  _EMatdaanState createState() => _EMatdaanState();
 }
 
-class _ElectChainState extends State<ElectChain> {
+class _EMatdaanState extends State<EMatdaan> {
   final GlobalKey _scafflofKey = GlobalKey();
   @override
   Widget build(BuildContext context) {

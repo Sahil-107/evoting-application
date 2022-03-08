@@ -124,7 +124,7 @@ class _VoteDashboardState extends State<VoteDashboard> {
                 SliverAppBar(
                   leading: IconButton(
                       icon: Icon(Icons.dashboard),
-                      onPressed: () => Get.to(ElectChain())),
+                      onPressed: () => Get.to(EMatdaan())),
                   title: Column(
                     children: [
                       Text(
